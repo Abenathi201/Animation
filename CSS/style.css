@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: slategrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: animate 1s infinite;
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+header {
+    background-color: rgb(61, 61, 61);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .logo {
+    width: 120%;
+    height: 50px;
+ }
+
+.navbar a {
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px 22px;
+}
+
+.navbar a:hover {
+    background-color: #111;
+}
+
+.main-section {
+    width: 100%;
+    height: 500px;
+}
